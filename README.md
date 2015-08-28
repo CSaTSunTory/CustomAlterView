@@ -1,7 +1,7 @@
 # CustomAlterView
 baseDownCustomIOSAltertView
 ###Example
-![Screenshot of  Example](CustomAlterVIew/AlterView.gif)
+![Screenshot of  Example](CustomAlterVIew/123.gif)
 
 
 
