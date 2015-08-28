@@ -15,7 +15,8 @@ alter.delegate = self;
 [alter show];
 
 ```
-
+```objc
 #### 2.1.0 - 2015/08/25
 titleColor 和buttonColor 可修改;
 #### add actionsheet 
+```
