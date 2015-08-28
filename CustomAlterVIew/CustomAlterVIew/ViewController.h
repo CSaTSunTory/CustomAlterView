@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController
 - (IBAction)CustomAlterVIewAction:(UIButton *)sender;
 
+- (IBAction)ActionSheet:(UIButton *)sender;
+- (IBAction)clickActionsheet:(id)sender;
 
 @end
 

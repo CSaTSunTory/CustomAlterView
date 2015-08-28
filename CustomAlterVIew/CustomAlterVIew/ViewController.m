@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CustomIOSAlertView.h"
+#import "LXActionSheet.h"
 @interface ViewController ()<CustomIOSAlertViewDelegate>
 
 @end
@@ -32,6 +33,21 @@
     alter.delegate = self;
     [alter show];
 }
+
+- (IBAction)ActionSheet:(UIButton *)sender {
+    LXActionSheet   *action = [[LXActionSheet alloc] init];
+    [action initMessage:@"作业已过期，不支持提交功能" liftButtonTitle:@"不再提醒" andRight:@"确定"];
+    
+////    action .delegate = self;
+//    //                [action showInView:nil];
+//    
+//    action.tag =indexPath.row;
+}
+
+- (IBAction)clickActionsheet:(id)sender {
+    LXActionSheet   *action = [[LXActionSheet alloc] initWithTitle:@"哎哟 不错" delegate:nil  cancelButtonTitle:@"不错" destructiveButtonTitle:@"可以" otherButtonTitles:@[@"不可以"] andColor:NO ];
+    [action showInView];
+   }
 
 - (void)customIOS7dialogButtonTouchUpInside:(id)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
