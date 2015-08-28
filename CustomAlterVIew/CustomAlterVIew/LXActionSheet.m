@@ -27,8 +27,9 @@
 #define TITLE_FONT                              [UIFont systemFontOfSize:14.0f]
 #define SHADOW_OFFSET                           CGSizeMake(0, 0.8f)
 #define TITLE_NUMBER_LINES                      2
-
+#define screenFrame         [UIScreen mainScreen].bounds
 #define ANIMATE_DURATION                        0.25f
+#define RGB(A,B,C) [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
 @interface LXActionSheet ()
 
 @property (nonatomic,strong) UIView *backGroundView;
@@ -298,7 +299,7 @@
          titlelabel.text = title;}
     titlelabel.font = [UIFont systemFontOfSize:18.0f];
     titlelabel.text = title;
-    titlelabel.textColor = [UIColor blackColor];
+    titlelabel.textColor = [UIColor redColor];
     titlelabel.numberOfLines = TITLE_NUMBER_LINES;
     return titlelabel;
 }
