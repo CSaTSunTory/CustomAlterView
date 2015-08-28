@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E86C1F3-B1F0-4A56-BED6-AC9F8B8A7A2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomAlterVIew</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>51FC34167449502DE24128346A2A4B8155B9D66A</key>
+		<string>https://github.com/Lixinbo818/CustomAlterView</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomAlterVIew/CustomAlterVIew.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>51FC34167449502DE24128346A2A4B8155B9D66A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lixinbo818/CustomAlterView</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>51FC34167449502DE24128346A2A4B8155B9D66A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>51FC34167449502DE24128346A2A4B8155B9D66A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
